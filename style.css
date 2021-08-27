@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+#typeHere{
+    margin-left: 37%;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(241, 232, 232);
+    border: 1px solid black;
+    vertical-align: middle;
+    outline: none;
+    margin-left: 8px;
+}
+#btn{
+    width: 30px;
+    height: 30px;
+    background-color: silver;
+    border: 2px solid;
+    font-size: 26px;
+    margin-top: 12px;
+    margin-left: 139px;
+}
+#btn:hover{
+    cursor: pointer;
+}
+.to-dos{
+    margin-top: 25px;
+}
+.para-style{
+    text-align: center;
+    color: rgb(17, 7, 7);
+    margin: 5px;
+}
+ @media screen and (min-width:1024px) {
+    #typeHere{
+        
+    margin-left: 356px;
+    margin-top: -12px;
+
+    }
+    #btn{
+    margin-top: 39px;
+    margin-left: -30px;
+    }
+} 
